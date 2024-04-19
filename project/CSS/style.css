@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.img {
+  max-width: 100%;
+}
+.puppy1,
+.yetefachw,
+.puppy2 {
+  width: 33%;
+}
+.puppy1 img,
+.yetefachw img,
+.puppy2 img {
+  width: 100%;
+}
+.missing {
+  font-size: 44px;
+  padding: 86px 50px 45px;
+  text-align: center;
+}
+.yetefachw {
+  background-color: tomato;
+  margin: 0 1%;
+}
+.more {
+  text-align: center;
+  font-size: 42px;
+  margin: 69px;
+}
+
+.textbg {
+  background-color: rgb(9, 9, 104);
+  padding-top: 28px;
+  padding-bottom: 26px;
+  text-align: center;
+  font-size: 30px;
+}
+.textbg:hover {
+  background-color: aqua;
+  font-family: fantasy;
+  font-size: 45;
+}
+
+#banner img {
+  margin-bottom: 82px;
+  width: 100%;
+}
+
+.three-puppies {
+  display: flex;
+  width: 960px;
+  margin: auto;
+}
+.two-puppies {
+  display: flex;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+/* register css here */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.dog-breed {
+  text-align: center;
+}
+
+/*contact us css start here */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  transition-property: width, height;
+  transition-duration: 5s;
+}
+#brown-dog {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+  transition-property: width, height;
+  transition-duration: 5s;
+}
+#brown-dog:hover {
+  width: 10%;
+  height: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.dog-breed {
+  text-align: center;
+}
+.missing:hover {
+  font-size: 100px;
+  transition-duration: 5s;
+  text-shadow: #45a049;
+  touch-action: double-tap-zoom;
+}
